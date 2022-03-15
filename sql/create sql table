@@ -1,0 +1,20 @@
+            
+ USE revature_training_db;
+DROP TABLE Super_Market_User;
+CREATE TABLE Super_Market_User
+(
+customer_id INT AUTO_INCREMENT PRIMARY KEY,
+NAME VARCHAR (100) NOT NULL,
+email_id VARCHAR (1000) NOT NULL ,
+PASSWORD VARCHAR (1000) NOT NULL,
+mobile_number BIGINT NOT NULL,
+gender CHAR(1) NOT NULL,
+CHECK (gender IN('M','F'))
+);               
+  INSERT INTO Super_Market_User (NAME,email_id,PASSWORD,mobile_number,gender)
+ VALUES ('priya','priya@gmail.com','priya12345','9876543210','F'),
+ ('jeevaa','jeevaa@gmail.com','jeevaa12345','9876543218','M'),
+ ('charu','charu@gmail.com','chaaru12345','9877443218','F'),
+ ('theju','theju@gmail.com','theju12345','9876541018','F');
+
+SELECT * FROM Super_Market_User;
