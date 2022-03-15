@@ -41,8 +41,8 @@ public class SuperMarketUser {
 	public char getGender() {
 		return gender;
 	}
-	public void setGender(char gender) {
-		this.gender = gender;
+	public void setGender(char c) {
+		this.gender = c;
 	}
 	@Override
 	public String toString() {
