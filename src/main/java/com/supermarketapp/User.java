@@ -1,13 +1,13 @@
 package com.supermarketapp;
 
-public class SuperMarketUser {
+public class User {
  
 	private  Integer CustomerId;
 	private String name;
 	private String email;
 	private String password;
 	private String mobileNumber;
-	private char gender;
+	//private char gender;
 	public Integer getCustomerId() {
 		return CustomerId;
 	}
@@ -38,16 +38,17 @@ public class SuperMarketUser {
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
 	}
-	public char getGender() {
+	/*public char getGender() {
 		return gender;
 	}
 	public void setGender(char c) {
 		this.gender = c;
 	}
+	*/
 	@Override
 	public String toString() {
-		return "SuperMarketAppUser [CustomerId=" + CustomerId + ", name=" + name + ", email=" + email + ", password="
-				+ password + ", mobileNumber=" + mobileNumber + ", gender=" + gender + "]";
+		return "User [CustomerId=" + CustomerId + ", name=" + name + ", email=" + email + ", password="
+				+ password + ", mobileNumber=" + mobileNumber + "]";
 	}
 	
 	

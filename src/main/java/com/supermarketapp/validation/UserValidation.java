@@ -1,10 +1,10 @@
 package com.supermarketapp.validation;
 
-import com.supermarketapp.SuperMarketUser;
+import com.supermarketapp.User;
 
-public class SuperMarketUserValidation {
+public class UserValidation {
 
-	public static  void UserValidation(SuperMarketUser s1) throws Exception {
+	public static  void UserValidation(User s1) throws Exception {
 		if (s1.getName()==null) {
 			throw new Exception("not a valid name");
 		}
