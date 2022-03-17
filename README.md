@@ -10,5 +10,5 @@
 * User able to sort out the items in my menu(pending)
 
 #### Module 3:order 
-* user can order the item want they want(pending)
+* user can order the item what they want(pending)
 * user can see the delivery date(pending)
