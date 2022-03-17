@@ -1,4 +1,4 @@
-package com.supermarketapp;
+package com.supermarketapp.model;
 
 public class User {
  

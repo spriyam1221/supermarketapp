@@ -2,12 +2,11 @@ package com.supermarketapp.dao;
 
 import java.sql.SQLException;
 
-import com.supermarketapp.User;
-
-import com.supermarketapp.exception.DBException;
+import com.supermarketapp.exception.USException;
+import com.supermarketapp.model.User;
 
 public interface UserDAO {
-	 void register(User s1 ) throws ClassNotFoundException, SQLException,DBException;
+	 void register(User user ) throws ClassNotFoundException, SQLException,USException;
 
 }
  
