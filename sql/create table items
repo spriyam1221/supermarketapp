@@ -1,0 +1,6 @@
+CREATE TABLE Super_Market_Menu
+(product_name VARCHAR(100) NOT NULL,
+quantity VARCHAR(100) NOT NULL,
+price INT NOT NULL
+);
+SELECT * FROM Super_Market_Menu;

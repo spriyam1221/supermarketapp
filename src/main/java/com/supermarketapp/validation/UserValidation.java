@@ -17,10 +17,7 @@ public class UserValidation {
 		else if (s1.getMobileNumber()==null) {
 			throw new Exception ("not a valid mobilenumber");
 		}
-		//else if (s1.getGender()==null){
-		//	throw new Exception ("Whether Check your genger");
-			
-		//}
+		
 		System.out.println("validation sucessful");
 	}
 }

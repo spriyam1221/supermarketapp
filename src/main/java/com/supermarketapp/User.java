@@ -7,7 +7,7 @@ public class User {
 	private String email;
 	private String password;
 	private String mobileNumber;
-	//private char gender;
+	
 	public Integer getCustomerId() {
 		return CustomerId;
 	}
@@ -38,18 +38,13 @@ public class User {
 	public void setMobileNumber(String mobileNumber) {
 		this.mobileNumber = mobileNumber;
 	}
-	/*public char getGender() {
-		return gender;
-	}
-	public void setGender(char c) {
-		this.gender = c;
-	}
-	*/
+	
 	@Override
 	public String toString() {
 		return "User [CustomerId=" + CustomerId + ", name=" + name + ", email=" + email + ", password="
 				+ password + ", mobileNumber=" + mobileNumber + "]";
 	}
+	
 	
 	
 }

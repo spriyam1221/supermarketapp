@@ -31,8 +31,7 @@ public class UserDAOImpl implements UserDAO {
 				 statement.setString(3, s1.getEmail());
 				 statement.setString(4, s1.getPassword());
 				 statement.setString(5, s1.getMobileNumber());
-				// statement.setchar(1, s1.getGender());
-				 int rows =statement.executeUpdate();
+	           int rows =statement.executeUpdate();		
 				 System.out.println(rows);
 	          }
 	          catch (ClassNotFoundException e) {
@@ -48,8 +47,12 @@ public class UserDAOImpl implements UserDAO {
 				 if(connection!=null){
 				 connection.close();
 				 }
+				 
 	}
 	}
+	//public void login(User s1) {
+	//	SELECT * FROM SuperMarket_App_User WHERE email_id='priya@gmail.com' AND PASSWORD ='priya12345';
+//}
 }
 	
 	
