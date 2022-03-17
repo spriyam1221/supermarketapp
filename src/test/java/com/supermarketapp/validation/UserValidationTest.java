@@ -3,7 +3,7 @@ package com.supermarketapp.validation;
 import com.supermarketapp.model.User;
 import com.supermarketapp.validation.UserValidation;
 
-public class ValidationTest {
+public class UserValidationTest {
 	public static void main(String[] args) throws Exception {
 		User user= new User();
 	     user.setCustomerId(1);

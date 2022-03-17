@@ -1,0 +1,12 @@
+USE revature_training_db;
+DROP TABLE SuperMarket_Order;
+ CREATE TABLE SuperMarket_Order
+(
+customer_Name VARCHAR(100) NOT NULL,
+contact_number BIGINT,
+address VARCHAR (100) NOT NULL,
+city VARCHAR (100) NOT NULL,
+postal_code VARCHAR (100) NOT NULL,
+country VARCHAR (100) NOT NULL
+);
+SELECT * FROM SuperMarket_Order;
