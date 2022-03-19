@@ -1,12 +1,15 @@
 USE revature_training_db;
-DROP TABLE SuperMarket_Order;
- CREATE TABLE SuperMarket_Order
+DROP TABLE SuperMarket_Order_Summary;
+ CREATE TABLE SuperMarket_Order_Summary
 (
-customer_Name VARCHAR(100) NOT NULL,
-contact_number BIGINT,
-address VARCHAR (100) NOT NULL,
+address VARCHAR (100) NOT NULL ,
 city VARCHAR (100) NOT NULL,
 postal_code VARCHAR (100) NOT NULL,
-country VARCHAR (100) NOT NULL
+items VARCHAR (100) NOT NULL,
+price INT NOT NULL,
+discount VARCHAR (100) NOT NULL,
+delivery_charges VARCHAR (100) NOT NULL,
+total_amount INT NOT NULL
 );
-SELECT * FROM SuperMarket_Order;
+SELECT * FROM SuperMarket_Order_Summary;
+

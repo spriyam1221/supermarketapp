@@ -1,0 +1,8 @@
+CREATE TABLE payment
+(
+payment_option VARCHAR (100),
+price INT NOT NULL,
+delivery_charges VARCHAR (100) NOT NULL,
+amount_payable INT NOT NULL
+);
+SELECT * FROM payment;

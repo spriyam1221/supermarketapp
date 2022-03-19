@@ -13,11 +13,11 @@ public class UserDAOTest {
 
 		User user = new User();
 
-		user.setCustomerId(4);
-		user.setName("Anu");
-		user.setEmail("Anu@gmail.com");
-		user.setPassword("Anu12345");
-		user.setMobileNumber("7333769883");
+		user.setCustomerId(5);
+		user.setName("Anubu");
+		user.setEmail("Anubu@gmail.com");
+		user.setPassword("Anubu12345");
+		user.setMobileNumber("7333787883");
 		System.out.println(user);
 		
 		UserDAO userDAO = new UserDAOImpl();
